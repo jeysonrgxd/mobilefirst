@@ -1,0 +1,31 @@
+/* 
+1. posicicionamientó
+2.  Modelo caja (Box model) margin padding tamaño
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+:root{
+    /* colores */
+    --bitcoin-orange:#F7931A
+    --soft-orange:#ffe9d5;
+    --soft-blue:#e7f5ff;
+    --warm-black:#201e1c;
+    --black:#282623;
+    --grey:#bababa;
+    --off-white:#faf8f7;
+    --just-white:#fff;
+
+}
+
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
